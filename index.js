@@ -28,6 +28,7 @@ deleteFromObjectByKey()
   delete newObj.prop;
   return newObj;
 }
+<<<<<<< HEAD
 
 function 
 destructivelyDeleteFromObjectByKey(object, key)
@@ -35,6 +36,15 @@ destructivelyDeleteFromObjectByKey(object, key)
 var newObj = delete obj.prop; return {obj, newObj};
 }
 destructivelyDeleteFromObjectByKey(obj,'prop');
+=======
+function 
+destructivelyDeleteFromObjectByKey()
+{var obj = { prop: 1};
+var newObj = delete obj.prop;
+return newObj}
+
+destructivelyDeleteFromObjectByKey();
+>>>>>>> 3b3e0ba6014f0c351218ecc3d66a3ef229c28a58
 
 /*
 
