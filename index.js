@@ -33,7 +33,7 @@ deleteFromObjectByKey()
 
 function 
 destructivelyDeleteFromObjectByKey()
-{var obj = { prop: 1};
+{var obj = { 'prop': 1};
 delete obj.prop;
 }
 
