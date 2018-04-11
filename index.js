@@ -28,43 +28,17 @@ deleteFromObjectByKey()
   delete newObj.prop;
   return newObj;
 }
-<<<<<<< HEAD
+
 
 function 
 destructivelyDeleteFromObjectByKey(object, key)
 {var obj = { prop: 1};
 var newObj = delete obj.prop; return {obj, newObj};
 }
-destructivelyDeleteFromObjectByKey(obj,'prop');
-=======
+destructivelyDeleteFromObjectByKey(obj,'prop')
 function 
 destructivelyDeleteFromObjectByKey()
 {var obj = { prop: 1};
 var newObj = delete obj.prop;
 return newObj}
 
-destructivelyDeleteFromObjectByKey();
->>>>>>> 3b3e0ba6014f0c351218ecc3d66a3ef229c28a58
-
-/*
-
-      
-
-  describe('destructivelyDeleteFromObjectByKey(object, key)', function() {
-    it('returns object without the delete key/value pair', function() {
-      var obj = { prop: 1 }
-      var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
-
-      expect(newObj['prop']).toBe(undefined)
-    })
-
-    it('modifies the original object', function() {
-      var obj = { prop: 1 }
-      var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
-
-      expect(obj['prop']).toBe(undefined)
-    })
-  })
-
-})
-*/
